@@ -6,9 +6,24 @@
   box-sizing: border-box;
 }
 
+/*@font-face {
+  font-family: Poppins-light;
+  src: url("assets/fonts/Poppins-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Poppins-semi-Bold;
+  src: url("assets/fonts/Poppins-SemiBold.ttf") format('truetype');
+}*/
+
 /* 2. we use :root for default variables */
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
+  --primary: #3B2A9F;
+  --primary-100: #5141AA;
+  --bg-gradiant: #3B2A9F;
+  --secondary: #FA8305;
+  --brown: #1C140F;
   --black-700: #000;
 }
 /* 3. and we use it like this */
@@ -17,4 +32,49 @@
   background-color: var(--black-700);
 }
 
+@font-face {
+  font-family: Poppins-medium;
+  src: url("assets/fonts/Poppins-Medium.ttf") format('truetype');
+}
+
+body{
+  font-family: Poppins-medium, Poppins, serif;
+  background-color: var(--bg-gradiant);
+  color: white;
+}
+
+header{
+  height: 100px;
+}
+
+#logo{
+  display: inline;
+  margin: 25px 480px 25px 60px;
+  color: white;
+}
+
+ul{
+  display: inline;
+}
+.nav {
+  display: inline;
+  color: white;
+  margin: 0 88px 0 88px;
+}
+
+.selected{
+  background-image: url("assets/images/active-bar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#theme{
+  padding: 10px 25px;
+  border-radius: 6px;
+  display: inline;
+  font-size: 13px;
+  color: white;
+  background-color: var(--secondary);
+}
 /* good luck */
