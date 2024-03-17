@@ -119,7 +119,6 @@ ul{
 
 #joy-1{
   position: relative;
-  left: 100px;
 }
 
 #unity-1{
@@ -135,7 +134,7 @@ ul{
   height: 99px;
   position: relative;
   bottom: 450px;
-  left: 300px;
+  left: 200px;
 }
 
 #unreal-1{
@@ -143,8 +142,67 @@ ul{
   height: 64px;
   position: relative;
   bottom: 470px;
-  left: 500px;
+  left: 400px;
 }
 
+.trend{
+  margin-top: 180px;
+  margin-left: 150px;
+  margin-bottom: 60px;
+}
 
+@font-face {
+  font-family: Rubik;
+  src: url("/assets/fonts/static/Rubik-Medium.ttf");
+}
+
+#trend-text{
+  font-family: Rubik, serif ;
+  font-size: 30px;
+  line-height: 58px;
+  display: inline-block;
+}
+
+.more{
+  font-family: Rubik, serif;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-100);
+  margin-left: 625px;
+}
+
+.trending-games{
+  margin-left: 150px;
+}
+.trending-games li{
+  display: inline-block;
+  margin-right: 47px;
+}
+
+.trend-game-img{
+  width: 251px;
+  height: 277px;
+  border-radius: 20px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  margin: 25px 40px;
+}
+
+.fire {
+  margin-right: 10px;
+  width: 18px;
+  height: 25px;
+}
+
+.followers{
+  font-family: Rubik;
+  font-size: 22px;
+  line-height: 41px;
+}
 /* good luck */
