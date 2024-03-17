@@ -77,4 +77,42 @@ ul{
   color: white;
   background-color: var(--secondary);
 }
+
+.pre-content{
+  margin-top: 200px;
+  margin-left: 150px;
+  width: 527px;
+  height: 510px;
+}
+
+#sponsoring{
+  color: var(--secondary);
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+#heading{
+  width: 480px;
+  height: 235px;
+  font-size: 50px;
+}
+
+.pre-content section{
+  font-size: 16px;
+  width: 530px;
+  height: 100px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  padding-right: 50px;
+  line-height: 2;
+}
+
+.pre-content .more-details{
+  font-size: 16px;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 30px;
+  background-color: var(--secondary);
+  text-decoration: none;
+}
 /* good luck */
