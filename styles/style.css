@@ -79,10 +79,11 @@ ul{
 }
 
 .pre-content{
-  margin-top: 200px;
+  margin-top: 100px;
   margin-left: 150px;
   width: 527px;
   height: 510px;
+  display: inline-block;
 }
 
 #sponsoring{
@@ -115,4 +116,35 @@ ul{
   background-color: var(--secondary);
   text-decoration: none;
 }
+
+#joy-1{
+  position: relative;
+  left: 100px;
+}
+
+#unity-1{
+  position: relative;
+  bottom: 250px;
+  left: 20px;
+  width: 96px;
+  height: 30px;
+}
+
+#cry-1{
+  width: 101px;
+  height: 99px;
+  position: relative;
+  bottom: 450px;
+  left: 300px;
+}
+
+#unreal-1{
+  width: 59px;
+  height: 64px;
+  position: relative;
+  bottom: 470px;
+  left: 500px;
+}
+
+
 /* good luck */
