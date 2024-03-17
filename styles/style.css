@@ -6,11 +6,7 @@
   box-sizing: border-box;
 }
 
-/*@font-face {
-  font-family: Poppins-light;
-  src: url("assets/fonts/Poppins-Light.ttf") format('truetype');
-}
-
+/*
 @font-face {
   font-family: Poppins-semi-Bold;
   src: url("assets/fonts/Poppins-SemiBold.ttf") format('truetype');
@@ -38,7 +34,7 @@
 }
 
 body{
-  font-family: Poppins-medium, Poppins, serif;
+  font-family: Poppins-medium, serif;
   background-color: var(--bg-gradiant);
   color: white;
 }
@@ -63,7 +59,7 @@ ul{
 }
 
 .selected{
-  background-image: url("assets/images/active-bar.png");
+  background-image: url("/assets/images/active-bar.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -214,5 +210,34 @@ article {
   width: 826px;
   height: 132px;
   margin-left: 307px;
+}
+
+@font-face {
+  font-family: Poppins-light;
+  src: url("/assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: Poppins-thin;
+  src: url("/assets/fonts/Poppins-Thin.ttf");
+}
+
+.textbox{
+  width: 545px;
+  height: 173px;
+  margin-top: 170px;
+  margin-left: 147px;
+}
+
+.head{
+  font-size: 30px;
+  margin-bottom: 32px;
+}
+
+.paragrapgh{
+  font-family: Poppins-thin, serif;
+  font-size: 16px;
+  width: 545px;
+  height: 101px;
 }
 /* good luck */
