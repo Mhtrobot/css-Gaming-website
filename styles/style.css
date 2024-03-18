@@ -404,9 +404,13 @@ footer{
   margin-left: 100px;
 }
 
-.footer-col{
+.footer-col
+,.footer-sec-col
+,.footer-third-col
+,.footer-third-col{
   list-style: none;
   display: inline-block;
+  vertical-align: top;
 }
 
 .paragrapgh.p-1{
@@ -418,5 +422,38 @@ footer{
 .paragrapgh.p-2{
   width: 196px;
   height: 23px;
+}
+
+.alternate-2{
+  font-size: 17px;
+  width: 78px;
+  height: 26px;
+  margin-bottom: 15px;
+}
+
+.alter-size{
+  width: 94px;
+}
+
+.footer-sec-col{
+  margin-right: 144px;
+}
+.p-3{
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Poppins-ExLight;
+}
+
+.p-4{
+  width: 282px;
+  height: 76px;
+  font-family: Poppins-ExLight;
+  margin-bottom: 15px;
+}
+
+.p-5{
+  font-family: Poppins-ExLight;
+  width: 141px;
+  height: 28px;
 }
 /* good luck */
