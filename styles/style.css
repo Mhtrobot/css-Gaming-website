@@ -287,33 +287,43 @@ article {
   height: 223px;
   border-radius: 20px;
   margin-right: 27px;
+  object-fit: cover;
 }
 #img2{
   width: 382px;
   height: 223px;
   border-radius: 20px;
   margin-right: 27px;
+  object-fit: cover;
 }
 #img3{
   width: 352px;
   height: 223px;
   border-radius: 20px;
+  object-fit: cover;
 }
+.first-row{
+  margin-bottom: 33px;
+}
+
 #img4{
   width: 246px;
   height: 223px;
   border-radius: 20px;
   margin-right: 27px;
+  object-fit: cover;
 }
 #img5{
   width: 401px;
   height: 223px;
   margin-right: 27px;
   border-radius: 20px;
+  object-fit: cover;
 }
 #img6{
   width: 469px;
   height: 223px;
   border-radius: 20px;
+  object-fit: cover;
 }
 /* good luck */
