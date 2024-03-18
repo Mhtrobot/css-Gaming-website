@@ -265,7 +265,10 @@ article {
   object-position: center center;
   border-radius: 5px;
 }
-
+.last-content{
+  width: 1170px;
+  height: 678px;
+}
 .last-content main{
   width: 497px;
   height: 128px;
@@ -304,6 +307,7 @@ article {
 }
 .first-row{
   margin-bottom: 33px;
+
 }
 
 #img4{
@@ -325,5 +329,9 @@ article {
   height: 223px;
   border-radius: 20px;
   object-fit: cover;
+}
+
+.last-content-more-detail{
+  margin-bottom: 105px;
 }
 /* good luck */
