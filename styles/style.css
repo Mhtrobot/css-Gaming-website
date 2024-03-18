@@ -251,4 +251,19 @@ article {
   margin-left: 973px;
   font-size: 40px;
 }
+
+.dot{
+  height: 20px;
+}
+.middle-page-img{
+  width: 1146px;
+  height: 462px;
+  margin-left: 147px;
+  position: relative;
+  bottom: 53px;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 5px;
+}
+
 /* good luck */
