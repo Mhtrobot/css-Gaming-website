@@ -341,26 +341,34 @@ article {
   margin-left: 135px;
 }
 
+#txt-1{
+  margin-left: unset;
+}
+
 .box{
   background-color: black;
   width: 1170px;
   height: 189px;
-  top: 74px;
-  margin-left: 135px;
   border-radius: 15px;
 }
 
-.container .box .textbox{
-  margin-top: 40px;
-  margin-bottom: 42px;
-  margin-left: 56px;
-  padding-top: 40px;
-  padding-bottom: 42px;
+.box .textbox{
+  margin: 40px 134px 42px 56px;
   width: 636px;
   height: 107px;
+  display: inline-block;
 }
 
 .alternate{
   margin-bottom: 10px;
+}
+
+.email{
+  width: 385.68px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: white;
+  margin-left: 734px;
+  margin-top: -120px;
 }
 /* good luck */
