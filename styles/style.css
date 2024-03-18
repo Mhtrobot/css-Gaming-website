@@ -277,4 +277,43 @@ article {
   width: 497px;
   height: 57px;
 }
+
+.last-content-img{
+  margin: 71px 134px 72px 136px;
+}
+
+#img1{
+  width: 382px;
+  height: 223px;
+  border-radius: 20px;
+  margin-right: 27px;
+}
+#img2{
+  width: 382px;
+  height: 223px;
+  border-radius: 20px;
+  margin-right: 27px;
+}
+#img3{
+  width: 352px;
+  height: 223px;
+  border-radius: 20px;
+}
+#img4{
+  width: 246px;
+  height: 223px;
+  border-radius: 20px;
+  margin-right: 27px;
+}
+#img5{
+  width: 401px;
+  height: 223px;
+  margin-right: 27px;
+  border-radius: 20px;
+}
+#img6{
+  width: 469px;
+  height: 223px;
+  border-radius: 20px;
+}
 /* good luck */
