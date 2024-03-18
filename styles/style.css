@@ -266,4 +266,15 @@ article {
   border-radius: 5px;
 }
 
+.last-content main{
+  width: 497px;
+  height: 128px;
+  text-align: center;
+  margin-left: 471px;
+}
+
+.last-content .paragrapgh{
+  width: 497px;
+  height: 57px;
+}
 /* good luck */
