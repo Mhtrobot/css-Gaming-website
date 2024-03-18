@@ -6,12 +6,6 @@
   box-sizing: border-box;
 }
 
-/*
-@font-face {
-  font-family: Poppins-semi-Bold;
-  src: url("assets/fonts/Poppins-SemiBold.ttf") format('truetype');
-}*/
-
 /* 2. we use :root for default variables */
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
@@ -407,7 +401,8 @@ footer{
 .footer-col
 ,.footer-sec-col
 ,.footer-third-col
-,.footer-third-col{
+,.footer-third-col
+,.footer-fourth-col{
   list-style: none;
   display: inline-block;
   vertical-align: top;
@@ -455,5 +450,37 @@ footer{
   font-family: Poppins-ExLight;
   width: 141px;
   height: 28px;
+}
+
+@font-face {
+  font-family: Poppins-semi-Bold;
+  src: url("/assets/fonts/Poppins-SemiBold.ttf") format('truetype');
+}
+
+.footer-fourth-col{
+  margin-top: 117px;
+  margin-left: 83px;
+}
+
+.facebook,.instagram,.twitter,.linkedin{
+  margin-right: -15px;
+}
+
+.copy{
+  font-family: Poppins-ExLight;
+  width: 323px;
+  height: 25px;
+  margin: 29px 522px 29px 520px;
+  font-size: 13px;
+}
+
+.copy-head{
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+hr{
+  margin-top: 151px;
 }
 /* good luck */
