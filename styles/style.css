@@ -265,10 +265,10 @@ article {
   object-position: center center;
   border-radius: 5px;
 }
-.last-content{
+/*.last-content{
   width: 1170px;
   height: 678px;
-}
+}*/
 .last-content main{
   width: 497px;
   height: 128px;
@@ -333,5 +333,11 @@ article {
 
 .last-content-more-detail{
   margin-bottom: 105px;
+}
+
+.container{
+  width: 1170px;
+  height: 392px;
+  margin-left: 135px;
 }
 /* good luck */
