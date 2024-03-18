@@ -76,6 +76,12 @@ header {
     border-radius: 3px;
 }
 
+.selected{
+    position: relative;
+    bottom: 12px;
+    right: 14px;
+}
+
 #theme {
     width: 81px;
     height: 20px;
