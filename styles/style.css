@@ -340,4 +340,27 @@ article {
   height: 392px;
   margin-left: 135px;
 }
+
+.box{
+  background-color: black;
+  width: 1170px;
+  height: 189px;
+  top: 74px;
+  margin-left: 135px;
+  border-radius: 15px;
+}
+
+.container .box .textbox{
+  margin-top: 40px;
+  margin-bottom: 42px;
+  margin-left: 56px;
+  padding-top: 40px;
+  padding-bottom: 42px;
+  width: 636px;
+  height: 107px;
+}
+
+.alternate{
+  margin-bottom: 10px;
+}
 /* good luck */
