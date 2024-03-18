@@ -380,4 +380,13 @@ article {
   margin: 14px 99px 14px 21px;
   border: none;
 }
+
+.btn{
+  font-family: Poppins, serif;
+  padding: 8px 13.5px 9px 22px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: var(--secondary);
+}
 /* good luck */
