@@ -47,3 +47,10 @@
     src: url("/assets/fonts/Poppins-SemiBold.ttf") format('truetype');
 }
 
+body {
+    font-family: Poppins-medium, serif;
+    background-color: var(--bg-gradiant);
+    color: white;
+    width: 1440px;
+    margin: 0 auto;
+}
