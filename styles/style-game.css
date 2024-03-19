@@ -285,3 +285,23 @@ header {
     width: 536px;
     height: 159px;
 }
+
+.team-container{
+    margin: 148px 66px 0 110px;
+    width: 1264px;
+    height: 351px;
+    display: flex;
+}
+
+.head-team{
+    flex-shrink: 0;
+    width: 139px;
+    height: 45px;
+}
+.c-1{
+    position: relative;
+    right: 139px;
+    width: 295px;
+    height: 253px;
+    margin-right: 28px;
+}
