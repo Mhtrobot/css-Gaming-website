@@ -54,3 +54,60 @@ body {
     width: 1440px;
     margin: 0 auto;
 }
+
+header {
+    height: 100px;
+}
+
+#logo {
+    font-family: Poppins-bold;
+    width: 81.93px;
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 60px;
+    color: white;
+    display: flex;
+}
+
+.list {
+    display: flex;
+    margin-left: 706px;
+    margin-top: -30px;
+    width: 505.41px;
+    height: 24.2px;
+}
+
+.nav {
+    font-family: Poppins-ExLight;
+    display: inline;
+    color: white;
+    margin-right: 88px;
+    width: 140px;
+    height: 41.34px;
+}
+
+/*.nav:hover {
+    border-bottom: 3px solid var(--secondary);
+    border-radius: 3px;
+}*/
+
+.selected{
+    position: relative;
+    bottom: 12px;
+    right: 14px;
+}
+
+#theme {
+    width: 81px;
+    height: 20px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    display: inline;
+    position: relative;
+    left: 1247px;
+    bottom: 25px;
+    font-size: 13px;
+    color: white;
+    background-color: var(--secondary);
+    font-family: Poppins-ExLight;
+}

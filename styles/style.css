@@ -77,10 +77,10 @@ header {
     height: 41.34px;
 }
 
-.nav:hover {
+/*.nav:hover {
     border-bottom: 3px solid var(--secondary);
     border-radius: 3px;
-}
+}*/
 
 .selected{
     position: relative;
