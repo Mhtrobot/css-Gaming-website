@@ -440,7 +440,7 @@ footer {
     height: 23px;
 }
 
-.alternate-2 {
+.alternate-col {
     font-size: 17px;
     width: 78px;
     height: 26px;
@@ -499,4 +499,27 @@ footer {
 
 hr {
     margin-top: 151px;
+}
+
+/*Full Width (1440px)*/
+@media (max-width: 1440px) {
+    body {
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+/* Main width (1140px) */
+@media (max-width: 1140px) {
+    body {
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 1440px;
+        margin: 0 auto;
+    }
 }
