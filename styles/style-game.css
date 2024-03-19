@@ -118,3 +118,14 @@ header {
     margin-top: 114px;
     margin-left: 110px;
 }
+.current-page{
+    color: var(--secondary);
+}
+
+.modifier{
+    font-family: Poppins-ExLight;
+    font-size: 12px;
+    width: 99px;
+    height: 25px;
+    margin-bottom: 38px;
+}
