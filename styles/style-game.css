@@ -176,3 +176,16 @@ header {
     left: 701px;
     bottom: 550px;
 }
+
+.offering{
+    margin-left: 110px;
+}
+
+.cards{
+    width: 378px;
+    height: 348px;
+    margin-top: 63px;
+    border-radius: 20px;
+    background-color: black;
+    display: inline-block;
+}
