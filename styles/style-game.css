@@ -174,7 +174,8 @@ header {
     object-fit: cover;
     position: relative;
     left: 701px;
-    bottom: 550px;
+    margin-bottom: -450px;
+    bottom: 580px;
 }
 
 .offering{
@@ -239,4 +240,8 @@ header {
     height: 108px;
     font-size: 14px;
     margin: 26px 37px 64px 37px;
+}
+
+.card-1, .card-2{
+    margin-right: 43px;
 }
