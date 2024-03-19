@@ -1,0 +1,49 @@
+/* 1. don't modify this style */
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+/* 2. we use :root for default variables */
+:root {
+    /* --"somekey-attr": "somevalue" i.e : */
+    --primary: #3B2A9F;
+    --primary-100: #5141AA;
+    --bg-gradiant: #3B2A9F;
+    --secondary: #FA8305;
+    --brown: #1C140F;
+    --black-700: #000;
+}
+
+@font-face {
+    font-family: Poppins-ExLight;
+    src: url("/assets/fonts/someFont/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: Poppins-medium;
+    src: url("/assets/fonts/Poppins-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url("/assets/fonts/Poppins-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url("/assets/fonts/static/Rubik-Medium.ttf");
+}
+
+@font-face {
+    font-family: Poppins-light;
+    src: url("/assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: Poppins-semi-Bold;
+    src: url("/assets/fonts/Poppins-SemiBold.ttf") format('truetype');
+}
+
