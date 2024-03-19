@@ -167,3 +167,12 @@ header {
     margin-top: 10px;
     margin-right: 5px;
 }
+
+.content-image{
+    width: 739px;
+    height: 656px;
+    object-fit: cover;
+    position: relative;
+    left: 701px;
+    bottom: 550px;
+}
