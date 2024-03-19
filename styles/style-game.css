@@ -111,3 +111,10 @@ header {
     background-color: var(--secondary);
     font-family: Poppins-ExLight;
 }
+
+.content{
+    width: 425px;
+    height: 450px;
+    margin-top: 114px;
+    margin-left: 110px;
+}
