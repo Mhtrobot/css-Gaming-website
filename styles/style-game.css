@@ -247,6 +247,7 @@ header {
 }
 
 .box{
+    display: flex;
     width: 1440px;
     height: 603px;
     background-color: rgba(28, 20, 15, 1);
@@ -259,4 +260,28 @@ header {
     object-fit: cover;
     margin: 113px 95px 0 110px;
     position: relative;
+}
+
+.textbox{
+    margin: 134px 203px 100px 95px;
+}
+
+.alternate{
+    font-family: Poppins-light;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.alternate-2{
+    width: 531px;
+    height: 150px;
+    line-height: 44px;
+    margin-bottom: 14px;
+}
+
+.alternate-3{
+    font-family: Poppins-light;
+    width: 536px;
+    height: 159px;
 }
