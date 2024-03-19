@@ -330,3 +330,27 @@ header {
     font-family: Poppins-ExLight, serif;
     font-size: 16px;
 }
+
+.container {
+    width: 1170px;
+    height: 392px;
+    margin-left: 135px;
+    margin-bottom: 163px;
+}
+
+.txt-1{
+    margin: 157px 0 74px 25px;
+}
+
+.txt-1-head{
+    width: 209px;
+    height: 40px;
+    margin-bottom: 32px;
+    font-size: 30px;
+}
+
+.txt-1-paragraph{
+    width: 545px;
+    height: 57px;
+    font-family: Poppins-light;
+}
