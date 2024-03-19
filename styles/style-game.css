@@ -409,3 +409,94 @@ header {
     color: white;
     background-color: var(--secondary);
 }
+
+footer {
+    background-color: var(--black-700);
+    width: 1440px;
+    height: 376px;
+}
+
+.footer-coloumns {
+    width: 1219px;
+    height: 161px;
+    padding-top: 79px;
+    margin-left: 100px;
+}
+
+.footer-col, .footer-sec-col, .footer-third-col, .footer-third-col, .footer-fourth-col {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.paragrapgh.p-1 {
+    width: 372px;
+    height: 58px;
+    margin-bottom: 25px;
+}
+
+.paragrapgh.p-2 {
+    width: 196px;
+    height: 23px;
+}
+
+.alternate-2 {
+    font-size: 17px;
+    width: 78px;
+    height: 26px;
+    margin-bottom: 15px;
+}
+
+.alter-size {
+    width: 94px;
+}
+
+.footer-sec-col {
+    margin-right: 144px;
+}
+
+.p-3 {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Poppins-ExLight;
+}
+
+.p-4 {
+    width: 282px;
+    height: 76px;
+    font-family: Poppins-ExLight;
+    margin-bottom: 15px;
+}
+
+.p-5 {
+    font-family: Poppins-ExLight;
+    width: 141px;
+    height: 28px;
+}
+
+.footer-fourth-col {
+    margin-top: 117px;
+    margin-left: 83px;
+}
+
+.facebook, .instagram, .twitter, .linkedin {
+    margin-right: -15px;
+}
+
+.copy {
+    font-family: Poppins-ExLight;
+    width: 323px;
+    height: 25px;
+    margin: 29px 522px 29px 520px;
+    font-size: 13px;
+}
+
+.copy-head {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+hr {
+    margin-top: 151px;
+}
