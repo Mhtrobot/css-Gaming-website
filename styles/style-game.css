@@ -115,8 +115,7 @@ header {
 .content{
     width: 425px;
     height: 450px;
-    margin-top: 114px;
-    margin-left: 110px;
+    margin: 114px 166px 0 110px;
 }
 .current-page{
     color: var(--secondary);
@@ -128,4 +127,43 @@ header {
     width: 99px;
     height: 25px;
     margin-bottom: 38px;
+}
+
+.head{
+    font-size: 30px;
+}
+.paragrapgh{
+    font-size: 15px;
+}
+
+#heading{
+    width: 425px;
+    height: 162px;
+    line-height: 54.15px;
+    margin-bottom: 25px;
+}
+
+.p-1{
+    width: 414px;
+    height: 95px;
+    font-size: 15px;
+    font-family: Poppins-light;
+    line-height: 31.28px;
+    margin-bottom: 57px;
+}
+
+.more-details{
+    width: 176px;
+    height: 47.84px;
+    text-decoration: none;
+    color: white;
+    padding: 11px 18px 16px 19px;
+    background-color: var(--secondary);
+    border-radius: 40px;
+}
+
+.arrow{
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-right: 5px;
 }
