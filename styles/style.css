@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: Poppins-ExLight;
+    src: url("/assets/fonts/someFont/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
     font-family: Poppins-medium;
     src: url("/assets/fonts/Poppins-Medium.ttf") format('truetype');
 }
@@ -64,6 +69,7 @@ header {
 }
 
 .nav {
+    font-family: Poppins-ExLight;
     display: inline;
     color: white;
     margin-right: 88px;
@@ -94,6 +100,7 @@ header {
     font-size: 13px;
     color: white;
     background-color: var(--secondary);
+    font-family: Poppins-ExLight;
 }
 
 .pre-content {
@@ -257,10 +264,6 @@ article {
     src: url("/assets/fonts/Poppins-Light.ttf");
 }
 
-@font-face {
-    font-family: Poppins-ExLight;
-    src: url("/assets/fonts/someFont/Poppins-ExtraLight.ttf");
-}
 
 .textbox {
     width: 545px;
