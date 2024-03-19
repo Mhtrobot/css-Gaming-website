@@ -354,3 +354,58 @@ header {
     height: 57px;
     font-family: Poppins-light;
 }
+
+.email-box{
+    background-color: black;
+    width: 1170px;
+    height: 189px;
+    border-radius: 15px;
+}
+
+.txt-2{
+    margin: 40px 134px 42px 56px;
+    width: 636px;
+    height: 107px;
+    display: inline-block;
+}
+
+.txt-2-head{
+    width: 303px;
+    height: 45px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.txt-2-paragraph{
+    width: 636px;
+    height: 52px;
+    font-size: 17px;
+    font-family: Poppins-ExLight, serif;
+}
+
+.email {
+    width: 385.68px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: white;
+    margin-left: 734px;
+    margin-top: -120px;
+}
+
+#email {
+    text-align: center;
+    font-family: Poppins, serif;
+    width: 155px;
+    height: 20px;
+    margin: 14px 99px 14px 21px;
+    border: none;
+}
+
+.btn {
+    font-family: Poppins, serif;
+    padding: 8px 13.5px 9px 22px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: var(--secondary);
+}
