@@ -297,6 +297,8 @@ header {
     flex-shrink: 0;
     width: 139px;
     height: 45px;
+    margin-top: -53px;
+    margin-bottom: auto;
 }
 .c-1{
     position: relative;
@@ -304,4 +306,27 @@ header {
     width: 295px;
     height: 253px;
     margin-right: 28px;
+}
+
+.avatar{
+    width: 123px;
+    height: 123px;
+    margin: 35px 86px 0 86px;
+}
+
+.team-names{
+    width: 106px;
+    height: 76px;
+    text-align: center;
+    margin-left: 96px;
+}
+
+.team-names h2{
+    font-family: Poppins-semi-Bold;
+    font-size: 19px;
+}
+
+.team-names p{
+    font-family: Poppins-ExLight, serif;
+    font-size: 16px;
 }
